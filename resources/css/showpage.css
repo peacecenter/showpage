@@ -292,7 +292,7 @@ a.info.toggle:after {
 
 .searcharea {
 	background-color: #ffffff;
-	min-height: 200px;
+	padding: 50px 0;
 	width: 100%;
 }
 
@@ -303,14 +303,69 @@ a.info.toggle:after {
 }
 
 .infoitems p {
-	width: 45%;
+	width: 100%;
 	margin-bottom: 15px;
+}
+
+.event {
+	max-width: 300px;
+	margin: 30px auto;
+	padding: 0 0 30px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #cccccc;
+}
+
+.event:last-of-type {
+	border-bottom: 0px;
+	padding: 0;
+}
+
+.eventTitle {
+	font-size: 1.5rem;
+}
+
+.eventDate {
+	font-size: .8rem;
+	color: #4b768a;
+	margin-top: 5px;
+}
+
+.eventLink a {
+	color: #ffffff;
+	background-color: #4c4c4c;
+	padding: 10px 50px;
+}
+
+.eventLink a:hover {
+	background-color: #76b758;
+}
+
+.object {
+	color: #ffffff;
+	background-color: #4b768a;
+	margin: 10px 0 0;
+	padding: 10px 20px;
+	border-radius: 50px;
+	display: block;
+	text-align: center;
+}
+
+.object:hover {
+	color: #ffffff;
+	background-color: #76b758;
 }
 
 @media screen and ( min-width:768px ) {
 	.maxw {
 		max-width: 700px;
 		margin: 0 auto;
+	}
+	
+	.event {
+		max-width: 700px;
 	}
 
 	.left {
@@ -320,6 +375,10 @@ a.info.toggle:after {
 	.right {
 		width: 100%;
 	}
+	
+	.infoitems p {
+		width: 45%;
+	}
 
 	}
 
@@ -327,6 +386,10 @@ a.info.toggle:after {
 	.maxw {
 		max-width: 1200px;
 		margin: 0 auto;
+	}
+	
+	.event {
+		max-width: 1200px;
 	}
 
 	.left {
