@@ -51,17 +51,17 @@ table {
 
 @font-face {
     font-family: Avenir-Book;
-    src: url('https://privateevents.peacecenter.org/articlemedia/fonts/Avenir-Book.ttf');
+    src: url('../AvenirLTStd-Book.otf');
 }
 
 @font-face {
     font-family: Gotham-Book;
-    src: url('https://privateevents.peacecenter.org/articlemedia/fonts/Gotham-Book.otf');
+    src: url('../Gotham-Book.otf');
 }
 
 @font-face {
     font-family: Gotham-Medium;
-    src: url('https://privateevents.peacecenter.org/articlemedia/fonts/Gotham-Medium.otf');
+    src: url('../Gotham-Medium.otf');
 }
 
 @font-face {
